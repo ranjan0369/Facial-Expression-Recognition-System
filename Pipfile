@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-numpy = "*"
 pandas = "*"
 scikit-learn = "*"
 matplotlib = "*"
@@ -14,6 +13,7 @@ keras = "*"
 flask = "*"
 requests = "*"
 opencv-contrib-python = "*"
+numpy = "==1.26.4"
 
 [dev-packages]
 
