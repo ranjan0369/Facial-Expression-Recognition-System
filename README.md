@@ -139,6 +139,13 @@ Example output after running evaluate_model.py:
 Validation Accuracy: 78.5%
 ```
 Accuracy may vary depending on dataset quality and size.
+
+---
+
+## Output Sample
+
+![Webcam Test](images/output.jpg)
+
 ---
 
 ## Future Improvements
