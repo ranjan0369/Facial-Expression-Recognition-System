@@ -13,7 +13,8 @@ This project implements a **Facial Expression Recognition** (FER) system using *
 - [Project Structure](#project-structure)  
 - [Training](#training)  
 - [Evaluation](#evaluation)  
-- [Results](#results)  
+- [Results](#results)
+- [Outpur Sample](#output-sample)  
 - [Future Improvements](#future-improvements)  
 
 ---
