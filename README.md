@@ -88,6 +88,11 @@ python src/evaluate_model.py
 - Loads the saved model and evaluates accuracy on the validation set.
 
 - Prints validation accuracy to the console.
+
+**Test the model:**
+```bash
+python main.py
+
 ---
 
 ## Project Structure
