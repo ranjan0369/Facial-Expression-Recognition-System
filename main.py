@@ -10,7 +10,7 @@ fishface = cv2.face.FisherFaceRecognizer_create()
 classes = ["neutral", "anger", "contempt", "disgust", "fear", "happy", "sadness", "surprise"]
 
 try:
-    fishface.read("result/result.xml")
+    fishface.read("result/fisherface_model.xml")
 
 except:
     print("no xml found.")
