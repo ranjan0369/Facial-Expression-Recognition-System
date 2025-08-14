@@ -11,8 +11,9 @@ else:
 
 def _train():
     print ("\n\n Please Wait. . . .Training.....")
-    import src.classifier
-    exec(open('src/classifier.py').read())
+    from train_model import train_model
+    train_model()
+    print ("\n\n Training Completed. You can now Start the Application. . . .")
 
    
     # os.system('"Train Classifier.exe"')
