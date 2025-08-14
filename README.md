@@ -92,7 +92,7 @@ python src/evaluate_model.py
 **Test the model:**
 ```bash
 python main.py
-
+```
 ---
 
 ## Project Structure
