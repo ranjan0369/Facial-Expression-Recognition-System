@@ -36,7 +36,7 @@ def faceDetection(emotion):
         
         #Cut and save face
         for (x, y, w, h) in facefeatures: #get coordinates and size of rectangle containing face
-            print "face found in file: %s" %f
+            print ("face found in file: %s" %f)
             gray = gray[y:y+h, x:x+w] #Cut the frame to size
             
             try:
