@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import subprocess
 import os
 import matplotlib.pyplot as plt
@@ -13,8 +11,8 @@ else:
 
 def _train():
     print ("\n\n Please Wait. . . .Training.....")
-    import classifier.py
-    #exec(open('classifier.py').read()) 
+    import src.classifier
+    exec(open('src/classifier.py').read())
 
    
     # os.system('"Train Classifier.exe"')
@@ -24,7 +22,7 @@ def _train():
 def _start():
     print("START")
     print("Please Wait ........")
-    exec(open('test.py').read()) 
+    exec(open('main.py').read()) 
 
 
 def _quit():
@@ -66,7 +64,7 @@ if __name__ == "__main__":
     authorVar = Tk.StringVar()
     authorLabel = Tk.Label(master=root, textvariable=authorVar)
     authorString = "\n\n Developed By: " \
-                   "\n Sujan Koju,Sabin Lama,Roshan Bhandari,Ranjan Shrestha " \
+                   "\n Ranjan Shrestha " \
                 
     authorVar.set(authorString)
     authorLabel.pack(side=Tk.BOTTOM)
