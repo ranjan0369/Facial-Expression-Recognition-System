@@ -145,7 +145,8 @@ Accuracy may vary depending on dataset quality and size.
 
 ## Output Sample
 
-![Webcam Test](images/output.jpg)(images/output2.png)
+![Output Sample 1](images/output.jpg)
+![Output Sample 2](images/output2.png)
 
 ---
 
